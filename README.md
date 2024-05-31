@@ -3,7 +3,7 @@
 ### Ben's super duper Bikeshare Python analysis
 
 ### Description
-A Python script that analyzes CSV data about bicycle usage statistics.
+A Python script that analyzes CSV data about bicycle usage statistics, including age and gender.
 
 ### Files used
 The script references the following files, which are not included here:
