@@ -49,14 +49,8 @@ def load_data(city, month, day):
     df = pd.read_csv(CITY_DATA[city])
     # Add a start time column.
     df['Start Time'] = pd.to_datetime(df['Start Time'])
-<<<<<<< HEAD
-    # Make a month column.
-    df['month'] = df['Start Time'].dt.month
-    # Make a day of week column.
-=======
     # Make month and day of week columns.
     df['month'] = df['Start Time'].dt.month
->>>>>>> a8106c912dcd2a933580708d1af1f53c683e3a14
     df['day_of_week'] = df['Start Time'].dt.weekday_name
     
     # Filter by month.
@@ -183,10 +177,6 @@ def main():
         
         # Ask if the user wants to see raw data.
         df = pd.read_csv(CITY_DATA[city])
-<<<<<<< HEAD
-	# these indices set up an interval of records
-=======
->>>>>>> a8106c912dcd2a933580708d1af1f53c683e3a14
         i,j=0,5
         view_raw = input('Would you like to see five records of raw data?  Please indicate "Yes" or "No".\n').lower()
         while view_raw not in ['yes', 'no']:
