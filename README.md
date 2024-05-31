@@ -1,17 +1,15 @@
->**Note**: Please **fork** the current Udacity repository so that you will have a **remote** repository in **your** Github account. Clone the remote repository to your local machine. Later, as a part of the project "Post your Work on Github", you will push your proposed changes to the remote repository in your Github account.
+### Created on 5/31/24.
 
-### Date created
-Include the date you created this project and README file.
-
-### Project Title
-Replace the Project Title
+### Ben's super duper Bikeshare Python analysis
 
 ### Description
-Describe what your project is about and what it does
+A Python script that analyzes CSV data about bicycle usage statistics.
 
 ### Files used
-Include the files used
+The script references the following files, which are not included here:
+* chicago.csv
+* new_york_city.csv
+* washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Thanks to Udacity for a project to fork, and for instruction creating the Bikeshare analysis.
