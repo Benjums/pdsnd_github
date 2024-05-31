@@ -13,3 +13,5 @@ The script references the following files, which are not included here:
 
 ### Credits
 Thanks to Udacity for a project to fork, and for instruction creating the Bikeshare analysis.
+
+Thanks to my boss for having my company pay for this!
