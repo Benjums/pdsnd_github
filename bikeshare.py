@@ -49,8 +49,9 @@ def load_data(city, month, day):
     df = pd.read_csv(CITY_DATA[city])
     # Add a start time column.
     df['Start Time'] = pd.to_datetime(df['Start Time'])
-    # Make month and day of week columns.
+    # Make a month column.
     df['month'] = df['Start Time'].dt.month
+    # Make a day of week column.
     df['day_of_week'] = df['Start Time'].dt.weekday_name
     
     # Filter by month.
