@@ -174,6 +174,7 @@ def main():
         
         # Ask if the user wants to see raw data.
         df = pd.read_csv(CITY_DATA[city])
+	# Create indices to show five records at a time
         i,j=0,5
         view_raw = input('Would you like to see five records of raw data?  Please indicate "Yes" or "No".\n').lower()
         while view_raw not in ['yes', 'no']:
